@@ -1,0 +1,137 @@
+[
+  {
+    "_id": "64f4a1b2c3d4e5f607182970",
+    "question": "How can I book a consultation with HealHub?",
+    "answer": "You can book a consultation from the appointments section, choose your preferred doctor and time slot, and confirm your request online.",
+    "category": "Appointments",
+    "order": 1,
+    "created_at": "2025-01-10T09:00:00Z",
+    "updated_at": "2025-01-10T09:00:00Z"
+  },
+  {
+    "_id": "64f4a2b3c4d5e6f708192a71",
+    "question": "Is HealHub suitable for urgent medical concerns?",
+    "answer": "HealHub is ideal for non-emergency consultations and follow-ups. For severe or sudden symptoms, we recommend contacting emergency services immediately.",
+    "category": "Safety",
+    "order": 2,
+    "created_at": "2025-01-10T09:05:00Z",
+    "updated_at": "2025-01-10T09:05:00Z"
+  },
+  {
+    "_id": "64f4a3b4c5d6e7f8091a2b72",
+    "question": "What types of doctors are available on HealHub?",
+    "answer": "We offer consultations with cardiologists, dermatologists, neurologists, pediatricians, general physicians, orthopedics, gynecologists, and ENT specialists.",
+    "category": "Doctors",
+    "order": 3,
+    "created_at": "2025-01-10T09:10:00Z",
+    "updated_at": "2025-01-10T09:10:00Z"
+  },
+  {
+    "_id": "64f4a4b5c6d7e8f90a1b2c73",
+    "question": "Can I speak with the AI assistant about common symptoms?",
+    "answer": "Yes, the AI assistant can provide general wellness information and suggest whether you should book a doctor consultation.",
+    "category": "AI Support",
+    "order": 4,
+    "created_at": "2025-01-10T09:15:00Z",
+    "updated_at": "2025-01-10T09:15:00Z"
+  },
+  {
+    "_id": "64f4a5b6c7d8e9f10a1b2c74",
+    "question": "How does HealHub protect my personal data?",
+    "answer": "HealHub uses secure authentication, data encryption, and strict access controls to protect patient and user information.",
+    "category": "Privacy",
+    "order": 5,
+    "created_at": "2025-01-10T09:20:00Z",
+    "updated_at": "2025-01-10T09:20:00Z"
+  },
+  {
+    "_id": "64f4a6b7c8d9e0f12a3b4c75",
+    "question": "Do I need a referral to see a specialist?",
+    "answer": "No, you can directly book appointments with specialists depending on availability and your health concern.",
+    "category": "Appointments",
+    "order": 6,
+    "created_at": "2025-01-10T09:25:00Z",
+    "updated_at": "2025-01-10T09:25:00Z"
+  },
+  {
+    "_id": "64f4a7b8c9d0e1f23a4b5c76",
+    "question": "What should I bring to my first consultation?",
+    "answer": "Carry your ID, previous medical reports, prescriptions, and a list of current medicines or allergies.",
+    "category": "General",
+    "order": 7,
+    "created_at": "2025-01-10T09:30:00Z",
+    "updated_at": "2025-01-10T09:30:00Z"
+  },
+  {
+    "_id": "64f4a8b9c0d1e2f34a5b6c77",
+    "question": "Can children book appointments through HealHub?",
+    "answer": "Yes, parents or guardians can book pediatric consultations and manage their child’s health records through the platform.",
+    "category": "Pediatrics",
+    "order": 8,
+    "created_at": "2025-01-10T09:35:00Z",
+    "updated_at": "2025-01-10T09:35:00Z"
+  },
+  {
+    "_id": "64f4a9b0c1d2e3f45a6b7c78",
+    "question": "How long does it take to receive consultation confirmation?",
+    "answer": "Most confirmations are sent within minutes, and you will also receive reminders for your appointment.",
+    "category": "Appointments",
+    "order": 9,
+    "created_at": "2025-01-10T09:40:00Z",
+    "updated_at": "2025-01-10T09:40:00Z"
+  },
+  {
+    "_id": "64f4a0b1c2d3e4f56a7b8c79",
+    "question": "Is the AI chatbot a replacement for doctors?",
+    "answer": "No. The AI assistant provides general health guidance, while a qualified doctor is recommended for diagnosis and treatment.",
+    "category": "AI Support",
+    "order": 10,
+    "created_at": "2025-01-10T09:45:00Z",
+    "updated_at": "2025-01-10T09:45:00Z"
+  },
+  {
+    "_id": "64f4b1c2d3e4f50617283980",
+    "question": "Can I reschedule an existing appointment?",
+    "answer": "Yes, you can update or reschedule your appointment through the portal or by contacting support.",
+    "category": "Appointments",
+    "order": 11,
+    "created_at": "2025-01-10T09:50:00Z",
+    "updated_at": "2025-01-10T09:50:00Z"
+  },
+  {
+    "_id": "64f4b2c3d4e5f60718283981",
+    "question": "What conditions do you help manage?",
+    "answer": "We help monitor common issues including cold and flu, blood pressure, diabetes, allergies, migraines, and joint pain.",
+    "category": "General",
+    "order": 12,
+    "created_at": "2025-01-10T09:55:00Z",
+    "updated_at": "2025-01-10T09:55:00Z"
+  },
+  {
+    "_id": "64f4b3c4d5e6f70819283982",
+    "question": "How do I know if I should seek urgent care?",
+    "answer": "Seek urgent care if you experience chest pain, severe breathing issues, sudden weakness, or intense bleeding.",
+    "category": "Safety",
+    "order": 13,
+    "created_at": "2025-01-10T10:00:00Z",
+    "updated_at": "2025-01-10T10:00:00Z"
+  },
+  {
+    "_id": "64f4b4c5d6e7f8091a283983",
+    "question": "Are teleconsultation services available after 6 PM?",
+    "answer": "Depending on doctor availability, some evening slots may be offered for routine consultations and follow-ups.",
+    "category": "Appointments",
+    "order": 14,
+    "created_at": "2025-01-10T10:05:00Z",
+    "updated_at": "2025-01-10T10:05:00Z"
+  },
+  {
+    "_id": "64f4b5c6d7e8f90a1b283984",
+    "question": "How do I update my contact details?",
+    "answer": "You can update your phone number, email address, and profile details from your account settings section.",
+    "category": "Account",
+    "order": 15,
+    "created_at": "2025-01-10T10:10:00Z",
+    "updated_at": "2025-01-10T10:10:00Z"
+  }
+]

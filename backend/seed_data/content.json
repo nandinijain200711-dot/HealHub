@@ -1,0 +1,45 @@
+[
+  {
+    "_id": "64f6a2b3c4d5e6f708192a91",
+    "home_headline": "Accessible healthcare, reimagined for modern India",
+    "home_subheading": "Book trusted doctors, chat with our AI assistant, and manage your health journey in one secure place.",
+    "about_content": "HealHub delivers AI-assisted healthcare support with fast appointment booking, doctor discovery, and secure patient engagement for individuals and families.",
+    "benefits_title": "Why patients trust HealHub",
+    "benefits_list": [
+      "Instant appointment booking",
+      "AI-powered symptom guidance",
+      "Verified doctors across specialties",
+      "Secure digital records and reminders",
+      "Affordable and convenient teleconsultation support"
+    ],
+    "testimonials": [
+      {
+        "name": "Riya Menon",
+        "text": "The booking experience was incredibly smooth and the AI assistant was very helpful.",
+        "rating": 5
+      },
+      {
+        "name": "Siddharth Rao",
+        "text": "I found it easy to connect with a specialist and manage my health follow-ups.",
+        "rating": 5
+      }
+    ],
+    "services_title": "Healthcare services that fit your routine",
+    "services": [
+      {
+        "title": "Doctor Consultations",
+        "description": "Book appointments with specialists across cardiology, dermatology, pediatrics, and more."
+      },
+      {
+        "title": "AI Health Assistant",
+        "description": "Get general symptom guidance and next-step recommendations in plain English."
+      },
+      {
+        "title": "Care Reminders",
+        "description": "Receive appointment reminders and helpful follow-up prompts for ongoing care."
+      }
+    ],
+    "footer_text": "HealHub © 2025. Designed for modern, trusted, and accessible healthcare.",
+    "updated_at": "2025-01-01T08:00:00Z"
+  }
+]

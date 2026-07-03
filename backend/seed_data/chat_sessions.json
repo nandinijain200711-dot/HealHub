@@ -1,0 +1,182 @@
+[
+  {
+    "_id": "64f5a1b2c3d4e5f607182980",
+    "user_email": "aarav.sharma@example.com",
+    "user_name": "Aarav Sharma",
+    "user_age": 31,
+    "user_gender": "male",
+    "initial_symptom": "Chest discomfort and fatigue",
+    "messages": [
+      {"role": "user", "content": "I have had mild chest discomfort on and off for two days."},
+      {"role": "assistant", "content": "I’m sorry to hear that. Please avoid strenuous activity and consider a medical check-up soon."},
+      {"role": "user", "content": "Should I book a cardiology consultation?"},
+      {"role": "assistant", "content": "A cardiology consultation would be appropriate if symptoms persist or worsen."}
+    ],
+    "ai_insights": "User reported intermittent chest discomfort; recommended medical evaluation and moderate activity restriction.",
+    "summary": "Discussed chest discomfort symptoms and recommendation for cardiology follow-up.",
+    "created_at": "2025-02-02T09:00:00Z",
+    "updated_at": "2025-02-02T09:20:00Z"
+  },
+  {
+    "_id": "64f5a2b3c4d5e6f708192a81",
+    "user_email": "priya.nair@example.com",
+    "user_name": "Priya Nair",
+    "user_age": 28,
+    "user_gender": "female",
+    "initial_symptom": "Acne flare-up and skin irritation",
+    "messages": [
+      {"role": "user", "content": "My skin has become very oily and irritated lately."},
+      {"role": "assistant", "content": "That can happen with stress, weather changes, or skincare products."},
+      {"role": "user", "content": "Do I need a dermatologist?"},
+      {"role": "assistant", "content": "A dermatologist would be helpful if the irritation persists or spreads."}
+    ],
+    "ai_insights": "User discussed skin irritation and acne. Encouraged consultation with dermatologist if symptoms persist.",
+    "summary": "Reviewed skincare concerns and recommended a dermatologist consult.",
+    "created_at": "2025-02-03T13:30:00Z",
+    "updated_at": "2025-02-03T13:45:00Z"
+  },
+  {
+    "_id": "64f5a3b4c5d6e7f8091a2b82",
+    "user_email": "rohan.verma@example.com",
+    "user_name": "Rohan Verma",
+    "user_age": 40,
+    "user_gender": "male",
+    "initial_symptom": "Frequent headaches and light sensitivity",
+    "messages": [
+      {"role": "user", "content": "I keep getting headaches especially in the afternoon."},
+      {"role": "assistant", "content": "Frequent headaches can be caused by stress, dehydration, or sleep issues."},
+      {"role": "user", "content": "Can this be related to migraines?"},
+      {"role": "assistant", "content": "It could be. If the pain is severe or recurring, a neurologist review is advisable."}
+    ],
+    "ai_insights": "User described recurring headaches and sensitivity to light. Recommended hydration and specialist consultation.",
+    "summary": "Discussed headache patterns and possible migraine-related concerns.",
+    "created_at": "2025-02-04T11:10:00Z",
+    "updated_at": "2025-02-04T11:25:00Z"
+  },
+  {
+    "_id": "64f5a4b5c6d7e8f90a1b2c83",
+    "user_email": "sneha.kapoor@example.com",
+    "user_name": "Sneha Kapoor",
+    "user_age": 35,
+    "user_gender": "female",
+    "initial_symptom": "Child fever and cough",
+    "messages": [
+      {"role": "user", "content": "My child has had a fever for two days and a mild cough."},
+      {"role": "assistant", "content": "That sounds uncomfortable. Monitor hydration and consider a pediatric consultation."},
+      {"role": "user", "content": "Should I stay home from work?"},
+      {"role": "assistant", "content": "Rest and hydration are important; if symptoms worsen, seek medical advice promptly."}
+    ],
+    "ai_insights": "Parent described child fever and cough. Encouraged pediatric consultation and rest monitoring.",
+    "summary": "Discussed pediatric fever symptoms and comfort measures.",
+    "created_at": "2025-02-05T08:50:00Z",
+    "updated_at": "2025-02-05T09:00:00Z"
+  },
+  {
+    "_id": "64f5a5b6c7d8e9f10a1b2c84",
+    "user_email": "kunal.mehta@example.com",
+    "user_name": "Kunal Mehta",
+    "user_age": 46,
+    "user_gender": "male",
+    "initial_symptom": "Low energy and weight changes",
+    "messages": [
+      {"role": "user", "content": "I feel tired more often and I have also lost some appetite."},
+      {"role": "assistant", "content": "That can be related to stress, diet, or underlying health issues."},
+      {"role": "user", "content": "Should I get lab tests?"},
+      {"role": "assistant", "content": "A general physician can advise on the right tests based on your symptoms."}
+    ],
+    "ai_insights": "User reported fatigue and appetite changes. Recommended primary care consultation and lab work.",
+    "summary": "Reviewed fatigue and appetite symptoms with primary care advice.",
+    "created_at": "2025-02-06T10:20:00Z",
+    "updated_at": "2025-02-06T10:35:00Z"
+  },
+  {
+    "_id": "64f5a6b7c8d9e0f12a3b4c85",
+    "user_email": "meera.joshi@example.com",
+    "user_name": "Meera Joshi",
+    "user_age": 29,
+    "user_gender": "female",
+    "initial_symptom": "Knee pain while walking",
+    "messages": [
+      {"role": "user", "content": "My knee hurts when I climb stairs and it has been worsening."},
+      {"role": "assistant", "content": "That could be related to joint strain or overuse; rest and evaluation may help."},
+      {"role": "user", "content": "Would an orthopedic doctor be useful?"},
+      {"role": "assistant", "content": "Yes, especially if the pain affects mobility or daily activity."}
+    ],
+    "ai_insights": "User described knee pain affecting stairs and mobility. Suggested orthopedic consult.",
+    "summary": "Discussed knee pain concerns and need for mobility assessment.",
+    "created_at": "2025-02-07T07:40:00Z",
+    "updated_at": "2025-02-07T07:45:00Z"
+  },
+  {
+    "_id": "64f5a7b8c9d0e1f23a4b5c86",
+    "user_email": "vikram.iyer@example.com",
+    "user_name": "Vikram Iyer",
+    "user_age": 52,
+    "user_gender": "male",
+    "initial_symptom": "Irregular menstrual cycle concerns",
+    "messages": [
+      {"role": "user", "content": "My periods have become irregular and I feel anxious about it."},
+      {"role": "assistant", "content": "Irregular cycles can be caused by stress, hormonal changes, or other health conditions."},
+      {"role": "user", "content": "Should I speak with a gynecologist?"},
+      {"role": "assistant", "content": "Yes, especially if the symptoms are persistent or causing concern."}
+    ],
+    "ai_insights": "User discussed irregular menstrual cycles and anxiety. Recommended gynecologist consultation.",
+    "summary": "Reviewed menstrual irregularity and suggested specialist guidance.",
+    "created_at": "2025-02-08T15:05:00Z",
+    "updated_at": "2025-02-08T15:10:00Z"
+  },
+  {
+    "_id": "64f5a8b9c0d1e2f34a5b6c87",
+    "user_email": "ananya.rao@example.com",
+    "user_name": "Ananya Rao",
+    "user_age": 24,
+    "user_gender": "female",
+    "initial_symptom": "Sinus congestion and throat irritation",
+    "messages": [
+      {"role": "user", "content": "I have had sinus congestion for several days and my throat is sore."},
+      {"role": "assistant", "content": "That can happen with allergies or viral infections; hydration and rest may help."},
+      {"role": "user", "content": "Can an ENT specialist help?"},
+      {"role": "assistant", "content": "Yes, especially if symptoms continue beyond a week or are recurring."}
+    ],
+    "ai_insights": "User described sinus congestion and persistent throat irritation. Recommended ENT consult if symptoms persist.",
+    "summary": "Discussed sinus and throat symptoms with active care guidance.",
+    "created_at": "2025-02-09T12:15:00Z",
+    "updated_at": "2025-02-09T12:20:00Z"
+  },
+  {
+    "_id": "64f5a9b0c1d2e3f45a6b7c88",
+    "user_email": "harsh.singh@example.com",
+    "user_name": "Harsh Singh",
+    "user_age": 38,
+    "user_gender": "male",
+    "initial_symptom": "Migraine episodes and light sensitivity",
+    "messages": [
+      {"role": "user", "content": "I get migraine attacks every few days and they are quite intense."},
+      {"role": "assistant", "content": "I’m sorry that you’re dealing with that; keeping a headache log can help."},
+      {"role": "user", "content": "Would a neurologist help?"},
+      {"role": "assistant", "content": "Yes, if the episodes recur or affect your daily routine."}
+    ],
+    "ai_insights": "User reported migraine episodes and sensitivity to light. Suggested specialist review and symptom tracking.",
+    "summary": "Reviewed recurring migraines and recommended specialist evaluation.",
+    "created_at": "2025-02-10T06:55:00Z",
+    "updated_at": "2025-02-10T07:00:00Z"
+  },
+  {
+    "_id": "64f5a0b1c2d3e4f56a7b8c89",
+    "user_email": "divya.menon@example.com",
+    "user_name": "Divya Menon",
+    "user_age": 33,
+    "user_gender": "female",
+    "initial_symptom": "Palpitations and dizziness",
+    "messages": [
+      {"role": "user", "content": "I sometimes feel a fluttering in my chest and get dizzy."},
+      {"role": "assistant", "content": "Please avoid overexertion and consider getting assessed quickly if it recurs."},
+      {"role": "user", "content": "Could this be a heart issue?"},
+      {"role": "assistant", "content": "A cardiology evaluation is reasonable if symptoms are recurring or concerning."}
+    ],
+    "ai_insights": "User reported palpitations and dizziness. Encouraged prompt medical review and cardiology consult if symptoms recur.",
+    "summary": "Discussed palpitations and the need for cardiology evaluation.",
+    "created_at": "2025-02-11T18:20:00Z",
+    "updated_at": "2025-02-11T18:25:00Z"
+  }
+]

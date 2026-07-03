@@ -30,6 +30,30 @@ async def book_appointment(
     return result
 
 
+@router.get("/user/my-appointments")
+async def get_my_appointments(
+    skip: int = Query(0, ge=0),
+    limit: int = Query(10, ge=1, le=100),
+    current_user=Depends(get_current_user),
+    db=Depends(get_database)
+):
+    """Get current user's appointments"""
+    appointment_repo = AppointmentRepository(db["appointments"])
+    appointment_service = AppointmentService(appointment_repo)
+    
+    appointments = await appointment_service.get_user_appointments(current_user["email"])
+    
+    # Apply pagination
+    appointments = appointments[skip:skip+limit]
+    
+    return {
+        "total": len(appointments),
+        "skip": skip,
+        "limit": limit,
+        "appointments": appointments
+    }
+
+
 @router.get("/{appointment_id}")
 async def get_appointment(
     appointment_id: str,
@@ -56,30 +80,6 @@ async def get_appointment(
         )
     
     return appointment
-
-
-@router.get("/user/my-appointments")
-async def get_my_appointments(
-    skip: int = Query(0, ge=0),
-    limit: int = Query(10, ge=1, le=100),
-    current_user=Depends(get_current_user),
-    db=Depends(get_database)
-):
-    """Get current user's appointments"""
-    appointment_repo = AppointmentRepository(db["appointments"])
-    appointment_service = AppointmentService(appointment_repo)
-    
-    appointments = await appointment_service.get_user_appointments(current_user["email"])
-    
-    # Apply pagination
-    appointments = appointments[skip:skip+limit]
-    
-    return {
-        "total": len(appointments),
-        "skip": skip,
-        "limit": limit,
-        "appointments": appointments
-    }
 
 
 @router.get("")

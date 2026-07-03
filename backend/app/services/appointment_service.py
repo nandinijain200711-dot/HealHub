@@ -11,6 +11,13 @@ class AppointmentService:
     def __init__(self, appointment_repository: AppointmentRepository):
         self.repo = appointment_repository
     
+    def _sanitize_appointment(self, appointment: dict) -> dict:
+        if not appointment:
+            return appointment
+        appointment["id"] = str(appointment["_id"])
+        appointment.pop("_id", None)
+        return appointment
+    
     async def create_appointment(self, appointment_data: AppointmentCreate) -> dict:
         """Create a new appointment"""
         appointment_dict = appointment_data.dict()
@@ -38,22 +45,17 @@ class AppointmentService:
     async def get_appointment(self, appointment_id: str) -> Optional[dict]:
         """Get appointment by ID"""
         appointment = await self.repo.get_by_id(appointment_id)
-        if appointment:
-            appointment["id"] = str(appointment["_id"])
-        return appointment
+        return self._sanitize_appointment(appointment) if appointment else None
     
     async def get_user_appointments(self, user_email: str) -> List[dict]:
         """Get appointments for a user"""
         appointments = await self.repo.get_user_appointments(user_email)
-        for appointment in appointments:
-            appointment["id"] = str(appointment["_id"])
-        return appointments
+        return [self._sanitize_appointment(appointment) for appointment in appointments]
     
     async def get_all_appointments(self, skip: int = 0, limit: int = 100) -> dict:
         """Get all appointments with pagination"""
         appointments = await self.repo.get_all(skip=skip, limit=limit)
-        for appointment in appointments:
-            appointment["id"] = str(appointment["_id"])
+        sanitized = [self._sanitize_appointment(appointment) for appointment in appointments]
         
         total = await self.repo.count()
         
@@ -61,15 +63,13 @@ class AppointmentService:
             "total": total,
             "skip": skip,
             "limit": limit,
-            "appointments": appointments
+            "appointments": sanitized
         }
     
     async def get_appointments_by_status(self, status: str) -> List[dict]:
         """Get appointments by status"""
         appointments = await self.repo.get_appointments_by_status(status)
-        for appointment in appointments:
-            appointment["id"] = str(appointment["_id"])
-        return appointments
+        return [self._sanitize_appointment(appointment) for appointment in appointments]
     
     async def update_appointment(self, appointment_id: str, appointment_data: AppointmentUpdate) -> dict:
         """Update appointment"""
